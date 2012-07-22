@@ -14,4 +14,4 @@ Attention - Ce fichier ne peut être utilisé _en l'état_, le framework n'inté
 
 Liste des thèmes dont on trouve la traduction ici.
 
-- Picturesque (1.0) : thème pour photoblogging
+- Picturesque (0.1) : thème pour photoblogging
