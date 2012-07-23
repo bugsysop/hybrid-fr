@@ -8,8 +8,11 @@ http://themehybrid.com
 
 Traduction de l'ensemble des lignes de texte pour Hybrid Framework 1.4. 
 
+<<<<<<< HEAD
 Attention - Ce fichier ne peut être utilisé _en l'état_, le framework n'intégrant plus directement les traductions, mait sert de base pour la traduction des thèmes construit avec Hybrid.
 
+=======
+>>>>>>> Brouillon…
 ###Thèmes
 
 Liste des thèmes dont on trouve la traduction ici.
