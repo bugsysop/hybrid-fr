@@ -9,13 +9,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Textdomain-Support: yes\n"
 "X-Poedit-Language: French\n"
 "X-Poedit-Country: FRANCE\n"
-"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;esc_html_e;esc_html__;_n;_x;gettext;gettext_noop\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;_x;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: ..\n"
 
 #: ../404.php:32
 msgid "Whoah! You broke something!"
@@ -56,7 +55,7 @@ msgstr "Pages&nbsp;:"
 
 #: ../attachment-image.php:70
 msgid "Gallery"
-msgstr "Gallerie"
+msgstr "Galerie"
 
 #: ../comment.php:35
 msgid "Your comment is awaiting moderation."
@@ -88,9 +87,9 @@ msgid "Next &rarr;"
 msgstr "Suivant &rarr;"
 
 #: ../comments.php:54
-#, fuzzy, php-format
+#, php-format
 msgid "Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post\">trackbacks</a> and pingbacks are open."
-msgstr "Les commentaires sont fermés, mais les <a href=\"%s\" title=\"Trackback URL for this post\">trackbacks</a> et les pingbacks sont ouverts."
+msgstr "Les commentaires sont fermés, mais <a href=\"%1$s\" title=\"les retroliens pour cet article\">les retroliens</ a> et les pings sont ouverts."
 
 #: ../comments.php:60
 msgid "Comments are closed."
@@ -109,9 +108,8 @@ msgstr "[post-format-link] publié le [entry-published] [entry-comments-link bef
 #: ../content-image.php:35
 #: ../content.php:35
 #: ../content.php:53
-#, fuzzy
 msgid "[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms before=\"Tagged \"]"
-msgstr "[entry-terms taxonomy=\"category\" before=\"Posté dans \"] [entry-terms before=\"Tag \"]"
+msgstr "[entry-terms taxonomy=\"category\" before=\"Publié dans \"] [entry-terms before=\"Tags \"]"
 
 #: ../content-gallery.php:53
 #, php-format
