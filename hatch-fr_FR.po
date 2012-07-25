@@ -3,32 +3,31 @@ msgstr ""
 "Project-Id-Version: Hatch 0.2.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-25 06:00+0100\n"
-"PO-Revision-Date: 2012-07-25 06:15+0100\n"
+"PO-Revision-Date: 2012-07-25 23:52+0100\n"
 "Last-Translator: Aris Papatheodorou <aris@samizdat.net>\n"
 "Language-Team: Aris Papathéodorou <aris@papatheodorou.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;_x\n"
-"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;_x;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
 "X-Poedit-Language: French\n"
 "X-Poedit-Country: FRANCE\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: ..\n"
 
 #: 404.php:27
 msgid "Not Found"
 msgstr "Non trouvé"
 
 #: 404.php:32
-#, php-format
+#, fuzzy, php-format
 msgid "You tried going to %1$s, and it doesn't exist. All is not lost! You can search for what you're looking for."
-msgstr ""
+msgstr "Vous avez tenter d'accéder à %1$s, qui n'existe pas. Tout n'est pas perdu&nbsp;! Vous pouvez faire une recherche pour trouver ce que vous recherchez."
 
 #: attachment.php:44
 #, php-format
 msgid "Download &quot;%1$s&quot;"
-msgstr ""
+msgstr "Télécharger &quot;%1$s&quot;"
 
 #: attachment.php:51
 #: page-template-archives.php:34
@@ -63,7 +62,7 @@ msgstr "% résponses"
 #: comments.php:46
 #, php-format
 msgid "Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this post\">trackbacks</a> and pingbacks are open."
-msgstr ""
+msgstr "Les commentaires sont fermés, mais <a href=\"%1$s\" title=\"les retroliens pour cet article\">les retroliens</ a> et les pings sont ouverts."
 
 #: comments.php:52
 msgid "Comments are closed."
@@ -106,37 +105,37 @@ msgstr "Commentaire"
 #: functions.php:270
 #, php-format
 msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
-msgstr ""
+msgstr "Vous devez être <a href=\"%1$s\"> title=\"connecté\"</ a> pour poster un commentaire."
 
 #: functions.php:271
 #, php-format
 msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
-msgstr ""
+msgstr "Connecté en tant que <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
 
 #: functions.php:271
 msgid "Log out of this account"
-msgstr ""
+msgstr "Se déconnecter de ce compte"
 
 #: functions.php:271
 msgid "Log out &rarr;"
-msgstr ""
+msgstr "Déconnexion &rarr;"
 
 #: functions.php:276
 msgid "Leave a Reply"
-msgstr ""
+msgstr "Laisser un commentaire"
 
 #: functions.php:277
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr ""
+msgstr "Répondre à %s"
 
 #: functions.php:278
 msgid "Click here to cancel reply."
-msgstr ""
+msgstr "Cliquez ici pour annuler votre réponse."
 
 #: functions.php:279
 msgid "Post Comment &rarr;"
-msgstr ""
+msgstr "Poster un commentaire &rarr;"
 
 #: functions.php:291
 msgid "Copyright &#169; [the-year] [site-link]"
@@ -148,11 +147,11 @@ msgstr "Propulsé par [wp-link] et [theme-link]"
 
 #: loop-error.php:15
 msgid "Apologies, but no entries were found."
-msgstr ""
+msgstr "Désolé, mais aucune résultat n'a été trouvée."
 
 #: loop-nav.php:16
 msgid "&larr; Return to entry"
-msgstr ""
+msgstr "&larr; Retourner à l'article"
 
 # Vérifier dans le contexte
 #: loop-nav.php:22
@@ -182,7 +181,7 @@ msgstr "[entry-author before=\"Auteur&nbsp;: \"]"
 
 #: post.php:43
 msgid "Category: [entry-terms taxonomy=\"category\"]"
-msgstr ""
+msgstr "Catégorie: [entry-terms taxonomy=\"catégorie\"]"
 
 #: post.php:45
 msgid "[entry-terms taxonomy=\"post_tag\" before=\"Tags: \"]"
@@ -210,7 +209,7 @@ msgstr "Par [entry-author] le [entry-published] [entry-edit-link before=\" | \"]
 
 #: admin/functions-admin.php:36
 msgid "General settings"
-msgstr ""
+msgstr "Configuration globale"
 
 #: admin/functions-admin.php:54
 msgid "Favicon:"
@@ -218,7 +217,7 @@ msgstr "Favicon&nbsp;:"
 
 #: admin/functions-admin.php:60
 msgid "Upload favicon image (recommended max size: 32x32)."
-msgstr ""
+msgstr "Télécharger une image en tant que favicon (taille maximale recommendée&nbsp;: 32x32)."
 
 #: admin/functions-admin.php:72
 msgid "Logo:"
@@ -233,8 +232,9 @@ msgid "Author:"
 msgstr "Auteur&nbsp;:"
 
 #: admin/functions-admin.php:108
+#, fuzzy
 msgid "Whose biography to display on the home page?"
-msgstr ""
+msgstr "Quelle biographie afficher sur la page d'accueil&nbsp;?"
 
 #: admin/functions-admin.php:116
 msgid "Font family:"
@@ -310,15 +310,16 @@ msgstr "Couleurs des liens&nbsp;:"
 
 #: admin/functions-admin.php:158
 msgid "Set the theme link color."
-msgstr ""
+msgstr "Choisir la couleurs des liens."
 
 #: admin/functions-admin.php:165
 msgid "Custom CSS:"
 msgstr "Feuille de style personnalisée&nbsp;:"
 
 #: admin/functions-admin.php:169
+#, fuzzy
 msgid "Add your custom CSS here. It would overwrite any default or custom theme settings."
-msgstr ""
+msgstr "Ajouter ici vos styles CSS personnalisés. Ils remplacerons ceux de la feuille de style par défaut."
 
 #: admin/functions-admin.php:204
 msgid "Use this Image"
