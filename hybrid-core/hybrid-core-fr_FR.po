@@ -27,11 +27,11 @@ msgstr "Titre du document&nbsp;:"
 
 #: ../library/admin/meta-box-post-seo.php:76
 msgid "Meta Description:"
-msgstr "Description (champ meta)&nbsp;:  %s"
+msgstr "Description (champ meta)&nbsp;:"
 
 #: ../library/admin/meta-box-post-seo.php:82
 msgid "Meta Keywords:"
-msgstr "Mots-Clés (champ meta)&nbsp;: %s"
+msgstr "Mots-Clés (champ meta)&nbsp;:"
 
 #: ../library/admin/meta-box-post-template.php:36
 msgid "Template"
@@ -45,7 +45,7 @@ msgstr "Aucun modèle de page n'existe pour ce type d'article (post type)"
 #: ../library/admin/meta-box-theme-about.php:36
 #, php-format
 msgid "About %s"
-msgstr "A propos de %1$s"
+msgstr "A propos de %s"
 
 #: ../library/admin/meta-box-theme-about.php:61
 msgid "Theme:"
@@ -77,12 +77,12 @@ msgstr "Vous pouvez placer ici du code <acronym title=\"Extensible Hypertext Mar
 #: ../library/admin/theme-settings.php:171
 #, php-format
 msgid "%s Theme Settings"
-msgstr "Configuration du thème %1$s"
+msgstr "Configuration du thème %s"
 
 # Note : Titre de la page de configuration du thème
 #: ../library/admin/theme-settings.php:48
 msgid "Theme Settings"
-msgstr "Configuration du thème %1$s"
+msgstr "Configuration du thème"
 
 #: ../library/admin/theme-settings.php:172
 msgid "Customize"
@@ -227,13 +227,14 @@ msgstr "ID"
 msgid "Nice Name"
 msgstr "Pseudo&nbsp;:"
 
+# Vérifier dans le contexte
 #: ../library/classes/widget-authors.php:137
 msgid "Post Count"
-msgstr "Utilisation"
+msgstr "Nombre d'articles"
 
 #: ../library/classes/widget-authors.php:137
 msgid "Registered"
-msgstr "Enregistrer"
+msgstr "Enregistré"
 
 #: ../library/classes/widget-authors.php:137
 #: ../library/classes/widget-bookmarks.php:181
@@ -774,13 +775,13 @@ msgstr "<code>%1$s</code> &mdash; Cette fonction a été retirée ou remplacée 
 #: ../library/functions/menus.php:38
 #: ../library/functions/sidebars.php:87
 msgid "Primary"
-msgstr "Premier"
+msgstr "Principal"
 
 # Vérifier dans le contexte
 #: ../library/functions/menus.php:42
 #: ../library/functions/sidebars.php:91
 msgid "Secondary"
-msgstr "Second"
+msgstr "Secondaire"
 
 # Vérifier dans le contexte
 #: ../library/functions/menus.php:46
@@ -909,7 +910,7 @@ msgstr "En-tête"
 
 #: ../library/functions/sidebars.php:100
 msgid "Displayed within the site's header area."
-msgstr "Affiché dans la zone d'en-tête."
+msgstr "Affiché dans la zone d'en-tête du site."
 
 #: ../library/functions/sidebars.php:103
 msgid "Before Content"

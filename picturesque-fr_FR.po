@@ -64,7 +64,7 @@ msgstr "Votre commentaire est en attente de modération"
 
 #: ../comments.php:30
 msgid "No Responses"
-msgstr "Aucune réponses"
+msgstr "Aucune réponse"
 
 #: ../comments.php:30
 msgid "One Response"
@@ -109,8 +109,9 @@ msgstr "[post-format-link] publié le [entry-published] [entry-comments-link bef
 #: ../content-image.php:35
 #: ../content.php:35
 #: ../content.php:53
+#, fuzzy
 msgid "[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms before=\"Tagged \"]"
-msgstr ""
+msgstr "[entry-terms taxonomy=\"category\" before=\"Posté dans \"] [entry-terms before=\"Tag \"]"
 
 #: ../content-gallery.php:53
 #, php-format
@@ -160,7 +161,7 @@ msgstr "f/%s"
 #: ../functions.php:382
 #, php-format
 msgid "<span class=\"prep\">Focal Length:</span> %s"
-msgstr ""
+msgstr "<span class=\"prep\">Focale&nbsp;:</span> %s"
 
 #: ../functions.php:382
 #, php-format
@@ -168,9 +169,9 @@ msgid "%s mm"
 msgstr "%s mm"
 
 #: ../functions.php:386
-#, php-format
+#, fuzzy, php-format
 msgid "<span class=\"prep\">ISO:</span> %s"
-msgstr ""
+msgstr "<span class=\"prep\">ISO:</span> %s"
 
 #: ../functions.php:402
 #, php-format
@@ -216,7 +217,6 @@ msgid "You are browsing the site archives."
 msgstr "Vous consultez les archives du site."
 
 #: ../loop-nav.php:21
-#, fuzzy
 msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
 msgstr "<span class=\"meta-nav\">&larr;</span> Retour à l'article"
 
