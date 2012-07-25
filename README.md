@@ -19,12 +19,14 @@ Par exemple, le fichier `picturesque-fr_FR.mo` concerne le thème _Picturesque_ 
 Liste des thèmes dont on trouve la traduction ici :
 
 - Hatch [0.2.1] - DevPress
+- Live Wire [0.1.4] - Sami Keijonen (Foxnet)
 - Picturesque [0.1] - ThemeHybrid
 
 Références :  
 
 - ThemeHybrid : http://themehybrid.com
 - DevPress : http://devpress.com
+- Foxnet : http://foxnet.fi/en/
 
 ###Mode d'emploi
 
@@ -39,3 +41,9 @@ That's All Folks !
 
 http://codex.wordpress.org/I18n_for_WordPress_Developers    
 http://themehybrid.com/docs/tutorials/hybrid-core-i18n
+
+###Crédit
+
+Traductions :
+- bugsysop : Picturesque, Hatch
+- FxBe : Live Wire
