@@ -234,7 +234,7 @@ msgstr "Nombre d'articles"
 
 #: ../library/classes/widget-authors.php:137
 msgid "Registered"
-msgstr "Enregistré"
+msgstr "Enregistrer"
 
 #: ../library/classes/widget-authors.php:137
 #: ../library/classes/widget-bookmarks.php:181
