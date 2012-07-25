@@ -1,0 +1,326 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hatch 0.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-25 06:00+0100\n"
+"PO-Revision-Date: 2012-07-25 06:15+0100\n"
+"Last-Translator: Aris Papatheodorou <aris@samizdat.net>\n"
+"Language-Team: Aris Papathéodorou <aris@papatheodorou.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: 404.php:27
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: 404.php:32
+#, php-format
+msgid "You tried going to %1$s, and it doesn't exist. All is not lost! You can search for what you're looking for."
+msgstr ""
+
+#: attachment.php:44
+#, php-format
+msgid "Download &quot;%1$s&quot;"
+msgstr ""
+
+#: attachment.php:51
+#: page-template-archives.php:34
+#: page-template-bookmarks.php:34
+#: page-template-fullwidth.php:34
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: attachment.php:52
+#: page-template-archives.php:48
+#: page-template-bookmarks.php:50
+#: page-template-fullwidth.php:35
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: comment.php:30
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: comments.php:25
+msgid "No Responses"
+msgstr "Aucune réponse"
+
+#: comments.php:25
+msgid "One Response"
+msgstr "Une réponse"
+
+#: comments.php:25
+msgid "% Responses"
+msgstr "% résponses"
+
+#: comments.php:46
+#, php-format
+msgid "Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this post\">trackbacks</a> and pingbacks are open."
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: functions.php:183
+#: loop-nav.php:28
+msgid "&larr; Previous"
+msgstr "&larr; Précédents"
+
+#: functions.php:184
+#: loop-nav.php:28
+msgid "Next &rarr;"
+msgstr "Suivants &rarr;"
+
+#: functions.php:210
+msgid "(Untitled)"
+msgstr "(sans titre)"
+
+#: functions.php:257
+msgid "*"
+msgstr "*"
+
+#: functions.php:262
+msgid "Name"
+msgstr "Nom"
+
+#: functions.php:263
+msgid "Email"
+msgstr "Email"
+
+#: functions.php:264
+msgid "Website"
+msgstr "Site Web"
+
+#: functions.php:269
+msgid "Comment"
+msgstr "Commentaire"
+
+#: functions.php:270
+#, php-format
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: functions.php:271
+#, php-format
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: functions.php:271
+msgid "Log out of this account"
+msgstr ""
+
+#: functions.php:271
+msgid "Log out &rarr;"
+msgstr ""
+
+#: functions.php:276
+msgid "Leave a Reply"
+msgstr ""
+
+#: functions.php:277
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: functions.php:278
+msgid "Click here to cancel reply."
+msgstr ""
+
+#: functions.php:279
+msgid "Post Comment &rarr;"
+msgstr ""
+
+#: functions.php:291
+msgid "Copyright &#169; [the-year] [site-link]"
+msgstr "Copyright &#169; [the-year] [site-link]"
+
+#: functions.php:291
+msgid "Powered by [wp-link] and [theme-link]"
+msgstr "Propulsé par [wp-link] et [theme-link]"
+
+#: loop-error.php:15
+msgid "Apologies, but no entries were found."
+msgstr ""
+
+#: loop-nav.php:16
+msgid "&larr; Return to entry"
+msgstr ""
+
+# Vérifier dans le contexte
+#: loop-nav.php:22
+#: loop-nav.php:23
+msgid "%link"
+msgstr "%link"
+
+#: page-template-archives.php:36
+msgid "Archives by category"
+msgstr "Archives par catégories"
+
+#: page-template-archives.php:39
+msgid "RSS"
+msgstr "Flux RSS"
+
+#: page-template-archives.php:42
+msgid "Archives by month"
+msgstr "Archives par mois"
+
+#: post.php:39
+msgid "[entry-published before=\"Date: \"]"
+msgstr "[entry-published before=\"Date&nbsp;: \"]"
+
+#: post.php:41
+msgid "[entry-author before=\"Author: \"]"
+msgstr "[entry-author before=\"Auteur&nbsp;: \"]"
+
+#: post.php:43
+msgid "Category: [entry-terms taxonomy=\"category\"]"
+msgstr ""
+
+#: post.php:45
+msgid "[entry-terms taxonomy=\"post_tag\" before=\"Tags: \"]"
+msgstr "[entry-terms taxonomy=\"post_tag\" before=\"Tags&nbsp;: \"]"
+
+#: post.php:47
+msgid "[entry-edit-link]"
+msgstr "[entry-edit-link]"
+
+#: search.php:44
+msgid "[entry-published] [entry-author]"
+msgstr "[entry-published] [entry-author]"
+
+#: searchform.php:15
+msgid "Search this site..."
+msgstr "Rechercher sur ce site"
+
+#: searchform.php:16
+msgid "Search"
+msgstr "Rechercher"
+
+#: singular.php:34
+msgid "By [entry-author] on [entry-published] [entry-edit-link before=\" | \"]"
+msgstr "Par [entry-author] le [entry-published] [entry-edit-link before=\" | \"]"
+
+#: admin/functions-admin.php:36
+msgid "General settings"
+msgstr ""
+
+#: admin/functions-admin.php:54
+msgid "Favicon:"
+msgstr "Favicon&nbsp;:"
+
+#: admin/functions-admin.php:60
+msgid "Upload favicon image (recommended max size: 32x32)."
+msgstr ""
+
+#: admin/functions-admin.php:72
+msgid "Logo:"
+msgstr "Logo&nbsp;:"
+
+#: admin/functions-admin.php:78
+msgid "Upload logo image (recommended max width: 200px)."
+msgstr "Télécharger un logo (taille maximale recommendée&nbsp;: 200px)."
+
+#: admin/functions-admin.php:90
+msgid "Author:"
+msgstr "Auteur&nbsp;:"
+
+#: admin/functions-admin.php:108
+msgid "Whose biography to display on the home page?"
+msgstr ""
+
+#: admin/functions-admin.php:116
+msgid "Font family:"
+msgstr "Famille de caractères&nbsp;:"
+
+#: admin/functions-admin.php:120
+msgid "Arial"
+msgstr "Arial"
+
+#: admin/functions-admin.php:121
+msgid "Verdana"
+msgstr "Verdana"
+
+#: admin/functions-admin.php:122
+msgid "Bitter"
+msgstr "Bitter"
+
+#: admin/functions-admin.php:123
+msgid "Georgia"
+msgstr "Georgia"
+
+#: admin/functions-admin.php:124
+msgid "Droid Serif"
+msgstr "Droid Serif"
+
+#: admin/functions-admin.php:125
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: admin/functions-admin.php:126
+msgid "Istok Web"
+msgstr "Istok Web"
+
+#: admin/functions-admin.php:127
+msgid "Lucida Sans Unicode"
+msgstr "Lucida Sans Unicode"
+
+#: admin/functions-admin.php:128
+msgid "Droid Sans"
+msgstr "Droid Sans"
+
+#: admin/functions-admin.php:136
+msgid "Font size:"
+msgstr "Taille de caractères&nbsp;:"
+
+#: admin/functions-admin.php:140
+msgid "default"
+msgstr "par defaut"
+
+#: admin/functions-admin.php:141
+msgid "17"
+msgstr "17"
+
+#: admin/functions-admin.php:142
+msgid "16"
+msgstr "16"
+
+#: admin/functions-admin.php:143
+msgid "15"
+msgstr "15"
+
+#: admin/functions-admin.php:144
+msgid "14"
+msgstr "14"
+
+#: admin/functions-admin.php:146
+msgid "The base font size in pixels."
+msgstr "Taille de base de la police en pixels."
+
+#: admin/functions-admin.php:153
+msgid "Link color:"
+msgstr "Couleurs des liens&nbsp;:"
+
+#: admin/functions-admin.php:158
+msgid "Set the theme link color."
+msgstr ""
+
+#: admin/functions-admin.php:165
+msgid "Custom CSS:"
+msgstr "Feuille de style personnalisée&nbsp;:"
+
+#: admin/functions-admin.php:169
+msgid "Add your custom CSS here. It would overwrite any default or custom theme settings."
+msgstr ""
+
+#: admin/functions-admin.php:204
+msgid "Use this Image"
+msgstr "Utiliser cette image"
+
