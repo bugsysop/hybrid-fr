@@ -12,14 +12,16 @@ Attention - Ce fichier ne peut être utilisé _en l'état_, le framework n'inté
 
 ###Fichier de thèmes
 
-Suivant la convention en usage pour Hybrid Framework, les fichiers de traduction des thèmes sont nommés par le _nom_ de leur répertoire, plus le _code_ de la langue plus l'extension de fichier.
+Suivant la convention en usage pour Hybrid Framework, les catalogues de traduction des thèmes sont nommés par le _nom_ de leur répertoire, plus le _code_ de la langue plus l'extension de fichier.
 
 Par exemple, le fichier `picturesque-fr_FR.mo` concerne le thème _Picturesque_ créé par Justin Tadlock (ThemeHybrid).
 
 Liste des thèmes dont on trouve la traduction ici :
 
-- Hatch [0.2.1] - DevPress
+- Hatch [0.2.1] - Galin Simeonov (DevPress)
 - Live Wire [0.1.4] - Sami Keijonen (Foxnet)
+- Origin [0.3.5] - Galin Simeonov (DevPress)
+- Path [0.1.4] - Sami Keijonen (Foxnet)
 - Picturesque [0.1] - ThemeHybrid
 
 Références :  
@@ -45,5 +47,5 @@ http://themehybrid.com/docs/tutorials/hybrid-core-i18n
 ###Crédit
 
 Traductions :
-- bugsysop : Picturesque, Hatch
-- FxBe : Live Wire
+- bugsysop : Hybride Core, Hatch, Origin, Path, Picturesque
+- FxBe : Hybride Core, Live Wire
