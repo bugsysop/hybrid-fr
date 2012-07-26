@@ -1,7 +1,7 @@
 hybrid-fr
 =========
 
-Traduction française pour Hybrid WordPress Theme Framework  
+Traductions françaises pour les thèmes construits avec Hybrid Theme Framework pour WordPress  
 http://themehybrid.com
 
 ###Répertoire hybrid-core/
@@ -10,7 +10,7 @@ Traduction des entrées de texte pour Hybrid Framework 1.4.
 
 Attention - Ce fichier ne peut être utilisé _en l'état_, le framework n'intégrant plus directement les traductions, mais doit être placé dans le répertoire du thème (voir le mode d'emploi).
 
-###Fichier de thèmes
+###Fichiers de thèmes
 
 Suivant la convention en usage pour Hybrid Framework, les catalogues de traduction des thèmes sont nommés par le _nom_ de leur répertoire, plus le _code_ de la langue plus l'extension de fichier.
 
@@ -22,7 +22,7 @@ Liste des thèmes dont on trouve la traduction ici :
 - Live Wire [0.1.4] - Sami Keijonen (Foxnet)
 - Origin [0.3.5] - Galin Simeonov (DevPress)
 - Path [0.1.4] - Sami Keijonen (Foxnet)
-- Picturesque [0.1] - ThemeHybrid
+- Picturesque [0.1] - Justin Tadlock (ThemeHybrid)
 
 Références :  
 
@@ -39,12 +39,12 @@ Dans le répertoire `languages/` du thème :
 
 That's All Folks !
 
-###Lien utiles
+###Liens utiles
 
 http://codex.wordpress.org/I18n_for_WordPress_Developers    
 http://themehybrid.com/docs/tutorials/hybrid-core-i18n
 
-###Crédit
+###Crédits
 
 Traductions :
 - bugsysop : Hybride Core, Hatch, Origin, Path, Picturesque
