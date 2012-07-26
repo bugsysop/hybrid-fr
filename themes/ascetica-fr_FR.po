@@ -1,0 +1,350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ascetica 0.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-26 14:16+0100\n"
+"PO-Revision-Date: 2012-07-26 14:16+0100\n"
+"Last-Translator: Aris Papatheodorou <aris@samizdat.net>\n"
+"Language-Team: Aris Papathéodorou <aris@papatheodorou.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;_x;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:25
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: 404.php:30
+#, php-format
+msgid "You tried going to %1$s, and it doesn't exist. All is not lost! You can search for what you're looking for."
+msgstr "Vous avez tenter d'accéder à %1$s, qui n'existe pas. Tout n'est pas perdu&nbsp;! Vous pouvez faire une recherche pour trouver ce que vous recherchez."
+
+#: attachment.php:44
+#, php-format
+msgid "Download &quot;%1$s&quot;"
+msgstr "Télécharger &quot;%1$s&quot;"
+
+#: attachment.php:49
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: attachment.php:50
+#: content-gallery.php:42
+#: content-gallery.php:56
+#: content.php:27
+#: content.php:60
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: comment.php:34
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: comments.php:25
+msgid "No Responses"
+msgstr "Aucune réponse"
+
+#: comments.php:25
+msgid "One Response"
+msgstr "Une réponse"
+
+#: comments.php:25
+msgid "% Responses"
+msgstr "% résponses"
+
+#: comments.php:46
+#, php-format
+msgid "Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this post\">trackbacks</a> and pingbacks are open."
+msgstr "Les commentaires sont fermés, mais <a href=\"%1$s\" title=\"les retroliens pour cet article\">les retroliens</ a> et les pings sont ouverts."
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: content-gallery.php:28
+msgid "[entry-author before=\"Author: \"]"
+msgstr "[entry-author before=\"Auteur&nbsp;: \"]"
+
+#: content-gallery.php:30
+msgid "[entry-terms taxonomy=\"category\" before=\"Category: \"]"
+msgstr "[entry-terms taxonomy=\"cat&gorie\" before=\"Catégorie&nbsp;: \"]"
+
+#: content-gallery.php:32
+#: content.php:31
+msgid "[entry-terms taxonomy=\"post_tag\" before=\"Tags: \"]"
+msgstr "[entry-terms taxonomy=\"post_tag\" before=\"Tags&nbsp;: \"]"
+
+#: content-gallery.php:54
+#: content.php:21
+#: content.php:56
+msgid "[entry-published] &middot; by [entry-author] &middot; in [entry-terms taxonomy=\"category\" before=\"\"] [entry-edit-link before=\" &middot; \"]"
+msgstr "[entry-published] &middot; par [entry-author] &middot; dans [entry-terms taxonomy=\"catégorie\" before=\"\"] [entry-edit-link before=\" &middot; \"]"
+
+#: functions.php:167
+#: loop-nav.php:28
+msgid "&laquo; Previous"
+msgstr "&larr; Précédents"
+
+#: functions.php:168
+#: loop-nav.php:28
+msgid "Next &raquo;"
+msgstr "Suivants &rarr;"
+
+#: functions.php:215
+msgid "*"
+msgstr "*"
+
+#: functions.php:220
+msgid "Name"
+msgstr "Nom"
+
+#: functions.php:221
+msgid "Email"
+msgstr "Email"
+
+#: functions.php:222
+msgid "Website"
+msgstr "Site Web"
+
+#: functions.php:227
+msgid "Comment"
+msgstr "Commenter"
+
+#: functions.php:228
+#, php-format
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr "Vous devez être <a href=\"%1$s\" title=\"Connexion\">connecté</a> pour laisser un commentaire."
+
+#: functions.php:229
+#, php-format
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr "Connecté en tant que <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#: functions.php:229
+msgid "Log out of this account"
+msgstr "Se déconnecter"
+
+#: functions.php:229
+msgid "Log out &raquo;"
+msgstr "Déconnexion &raquo;"
+
+#: functions.php:234
+msgid "Leave a Reply"
+msgstr "Laisser un commentaire"
+
+#: functions.php:235
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Répondre à %s"
+
+#: functions.php:236
+msgid "Click here to cancel reply."
+msgstr "Cliquez ici pour annuler votre réponse."
+
+#: functions.php:237
+msgid "Post Comment"
+msgstr "Laisser un commentaire"
+
+#: functions.php:249
+msgid "Copyright &#169; [the-year] [site-link]"
+msgstr "Copyright &#169; [the-year] [site-link]"
+
+#: functions.php:249
+msgid "Powered by [wp-link] and [theme-link]"
+msgstr "Propulsé par [wp-link] et [theme-link]"
+
+#: loop-error.php:15
+msgid "Apologies, but no entries were found."
+msgstr "Désolé, aucun résultat n’a été trouvé."
+
+#: loop-nav.php:16
+msgid "&laquo; Return to entry"
+msgstr "&larr; Retourner à l'article"
+
+#: loop-nav.php:22
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Précédent"
+
+#: loop-nav.php:23
+msgid "Next <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
+
+#: searchform.php:17
+msgid "Search this site..."
+msgstr "Rechercher sur ce site"
+
+#: searchform.php:19
+#: sidebar-secondary.php:22
+msgid "Search"
+msgstr "Rechercher"
+
+#: sidebar-primary.php:22
+msgid "Meta"
+msgstr "Meta"
+
+#: sidebar-primary.php:33
+msgid "Archives"
+msgstr "Archives"
+
+#: admin/functions-admin.php:38
+msgid "General settings"
+msgstr "Configuration globale"
+
+#: admin/functions-admin.php:55
+msgid "Favicon:"
+msgstr "Favicon&nbsp;:"
+
+#: admin/functions-admin.php:61
+msgid "Upload favicon image (recommended max size: 32x32)."
+msgstr "Télécharger une image en tant que favicon (taille maximale recommendée&nbsp;: 32x32)."
+
+#: admin/functions-admin.php:73
+msgid "Logo:"
+msgstr "Logo&nbsp;:"
+
+#: admin/functions-admin.php:79
+msgid "Upload logo image."
+msgstr "Télécharger l'image du logo."
+
+#: admin/functions-admin.php:91
+msgid "Font family:"
+msgstr "Famille de caractères&nbsp;:"
+
+#: admin/functions-admin.php:95
+msgid "Georgia"
+msgstr "Georgia"
+
+#: admin/functions-admin.php:96
+msgid "PT Serif"
+msgstr "PT Serif"
+
+#: admin/functions-admin.php:97
+msgid "Bitter"
+msgstr "Bitter"
+
+#: admin/functions-admin.php:98
+msgid "Droid Serif"
+msgstr "Droid Serif"
+
+#: admin/functions-admin.php:99
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: admin/functions-admin.php:100
+msgid "Istok Web"
+msgstr "Istok Web"
+
+#: admin/functions-admin.php:101
+msgid "Arial"
+msgstr "Arial"
+
+#: admin/functions-admin.php:102
+msgid "Verdana"
+msgstr "Verdana"
+
+#: admin/functions-admin.php:103
+msgid "Lucida Sans Unicode"
+msgstr "Lucida Sans Unicode"
+
+#: admin/functions-admin.php:104
+msgid "Droid Sans"
+msgstr "Droid Sans"
+
+#: admin/functions-admin.php:112
+msgid "Font size:"
+msgstr "Font size:"
+
+#: admin/functions-admin.php:116
+msgid "default"
+msgstr "par defaut"
+
+#: admin/functions-admin.php:117
+msgid "18"
+msgstr "18"
+
+#: admin/functions-admin.php:118
+msgid "17"
+msgstr "17"
+
+#: admin/functions-admin.php:119
+msgid "16"
+msgstr "16"
+
+#: admin/functions-admin.php:120
+msgid "15"
+msgstr "15"
+
+#: admin/functions-admin.php:121
+msgid "14"
+msgstr "14"
+
+#: admin/functions-admin.php:122
+msgid "13"
+msgstr "13"
+
+#: admin/functions-admin.php:123
+msgid "12"
+msgstr "12"
+
+#: admin/functions-admin.php:125
+msgid "The base font size in pixels."
+msgstr "Taille de base de la police en pixels."
+
+#: admin/functions-admin.php:132
+msgid "Link color:"
+msgstr "Couleurs des liens&nbsp;:"
+
+#: admin/functions-admin.php:137
+msgid "Set the theme link color."
+msgstr "Choisir la couleurs des liens."
+
+#: admin/functions-admin.php:144
+msgid "Custom CSS:"
+msgstr "Feuille de style personnalisée&nbsp;:"
+
+#: admin/functions-admin.php:148
+msgid "Add your custom CSS here. If it's more than a few lines, it's recommended to separate your modifications in a child theme."
+msgstr "Ajouter ici vos règles de style CSS. Si il y a plus que quelques lignes, il est recommandé de d'implémenter vos modification dans un thème-enfant (child theme)."
+
+#: admin/functions-admin.php:182
+msgid "Use this Image"
+msgstr "Utiliser cette image"
+
+#: includes/widget-thumbnails.php:25
+msgid "Display post images from selected category."
+msgstr "Afficher les images des articles de la catégorie sélectionnée."
+
+#: includes/widget-thumbnails.php:37
+msgid "Ascetica - Thumbnails"
+msgstr "Ascetica - Vignettes"
+
+#: includes/widget-thumbnails.php:59
+msgid "No images."
+msgstr "Aucune image."
+
+#: includes/widget-thumbnails.php:116
+msgid "Thumbnails"
+msgstr "Vignettes"
+
+#: includes/widget-thumbnails.php:126
+msgid "Title"
+msgstr "Titre"
+
+#: includes/widget-thumbnails.php:133
+msgid "Select Category"
+msgstr "Sélectionner une catégorie"
+
+#: includes/widget-thumbnails.php:143
+msgid "Number of thumbnails"
+msgstr "Nombre de vignettes"
+
+#: includes/widget-thumbnails.php:149
+msgid "Display in random order"
+msgstr "Afficher par ordre aléatoire"
+
