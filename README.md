@@ -18,6 +18,7 @@ Par exemple, le fichier `picturesque-fr_FR.mo` concerne le thème _Picturesque_ 
 
 Liste des thèmes dont on trouve la traduction ici :
 
+- Ascetica [0.2.1] - Galin Simeonov (ThemeHybrid)
 - Hatch [0.2.1] - Galin Simeonov (DevPress)
 - Live Wire [0.1.4] - Sami Keijonen (Foxnet)
 - Origin [0.3.5] - Galin Simeonov (DevPress)
