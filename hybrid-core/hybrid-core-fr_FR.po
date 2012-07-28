@@ -15,7 +15,7 @@ msgstr ""
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;_x;_x:1,2c\n"
 "X-Poedit-Basepath: ../\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 
 #: library/admin/meta-box-post-seo.php:37
 msgid "SEO"
@@ -924,11 +924,11 @@ msgid "A widget area loaded in the footer of the site."
 msgstr "Une zone de widgets située au-dessus du pied de page."
 
 # Sidebars
+# Vérifier dans le contexte
 #: library/functions/sidebars.php:99
-#, fuzzy
 msgctxt "sidebar"
 msgid "Header"
-msgstr "En-tête"
+msgstr "Zone d'en-tête"
 
 #: library/functions/sidebars.php:100
 msgid "Displayed within the site's header area."
@@ -954,10 +954,9 @@ msgstr "Chargé après la zone de contenu principal de la page."
 
 # Vérifier dans le contextz
 #: library/functions/sidebars.php:111
-#, fuzzy
 msgctxt "sidebar"
 msgid "After Singular"
-msgstr "Après le texte de l’article"
+msgstr "Après le contenu de la page"
 
 #: library/functions/sidebars.php:112
 msgid "Loaded on singular post (page, attachment, etc.) views before the comments area."
