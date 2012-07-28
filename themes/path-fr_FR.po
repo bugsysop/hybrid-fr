@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Path 0.1.4\n"
+"Project-Id-Version: Path 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-17 18:03+0200\n"
-"PO-Revision-Date: 2012-07-26 00:15+0100\n"
+"POT-Creation-Date: 2012-07-28 12:42+0100\n"
+"PO-Revision-Date: 2012-07-28 12:45+0100\n"
 "Last-Translator: Aris Papatheodorou <aris@samizdat.net>\n"
 "Language-Team: Aris Papathéodorou <aris@papatheodorou.net>\n"
 "MIME-Version: 1.0\n"
@@ -28,6 +28,42 @@ msgstr "Vous essayé d'accéder à %s, qui n'existe pas. Vous pouvez essayer de 
 #: 404.php:39
 msgid "Or here are the latest posts, hope it helps."
 msgstr ""
+
+#: attachment-image.php:41
+#: content-video.php:37
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: attachment-image.php:42
+#: content-aside.php:27
+#: content-aside.php:38
+#: content-audio.php:27
+#: content-audio.php:38
+#: content-gallery.php:27
+#: content-gallery.php:44
+#: content-image.php:27
+#: content-image.php:38
+#: content-link.php:27
+#: content-link.php:48
+#: content-page.php:26
+#: content-page.php:43
+#: content-quote.php:20
+#: content-status.php:22
+#: content-video.php:27
+#: content-video.php:38
+#: content.php:27
+#: content.php:45
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: attachment-image.php:47
+#, fuzzy
+msgid "Published on [entry-published] [entry-edit-link before=\"| \"]"
+msgstr "[post-format-link] pubié le [entry-published] [entry-edit-link before=\"| \"]"
+
+#: attachment-image.php:62
+msgid "Gallery"
+msgstr "Galerie"
 
 #: comment.php:31
 msgid "Your comment is awaiting moderation."
@@ -63,27 +99,6 @@ msgstr "Les commentaires sont fermés."
 msgid "[post-format-link] published on [entry-published] [entry-edit-link before=\"| \"]"
 msgstr "[post-format-link] pubié le [entry-published] [entry-edit-link before=\"| \"]"
 
-#: content-aside.php:27
-#: content-aside.php:38
-#: content-audio.php:27
-#: content-audio.php:38
-#: content-gallery.php:27
-#: content-gallery.php:44
-#: content-image.php:27
-#: content-image.php:38
-#: content-link.php:27
-#: content-link.php:48
-#: content-page.php:26
-#: content-page.php:43
-#: content-quote.php:20
-#: content-status.php:22
-#: content-video.php:27
-#: content-video.php:38
-#: content.php:27
-#: content.php:45
-msgid "Pages:"
-msgstr "Pages&nbsp;:"
-
 #: content-aside.php:31
 #: content-audio.php:31
 #: content-gallery.php:31
@@ -116,12 +131,6 @@ msgstr "[post-format-link] publié le [entry-published] [entry-comments-link bef
 msgid "[post-format-link] published on [entry-published] [entry-edit-link before=\"| \"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms before=\"Tagged \"]"
 msgstr ""
 
-#: content-slider.php:45
-#: content.php:22
-#: content.php:40
-msgid "Published by [entry-author] on [entry-published] [entry-comments-link before=\" | \"] [entry-edit-link before=\" | \"]"
-msgstr ""
-
 #: content-status.php:27
 msgid "[post-format-link] updated on [entry-published] [entry-edit-link before=\"| \"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms before=\"Tagged \"]"
 msgstr "[post-format-link] mis à jour le [entry-published] [entry-edit-link before=\"| \"]<br />[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms before=\"Tagged \"]"
@@ -130,47 +139,48 @@ msgstr "[post-format-link] mis à jour le [entry-published] [entry-edit-link bef
 msgid "[post-format-link] updated on [entry-published] [entry-permalink before=\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
 msgstr "[post-format-link] mis à jour le [entry-published] [entry-permalink before=\"| \"] [entry-comments-link before=\"| \"] [entry-edit-link before=\"| \"]"
 
-#: content-video.php:37
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+#: content.php:22
+#: content.php:40
+msgid "Published by [entry-author] on [entry-published] [entry-comments-link before=\" | \"] [entry-edit-link before=\" | \"]"
+msgstr "Publié par [entry-author] le [entry-published] [entry-comments-link before=\" | \"] [entry-edit-link before=\" | \"]"
 
 #: content.php:49
 msgid "[entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms before=\"| Tagged \"]"
 msgstr "[entry-terms taxonomy=\"category\" before=\"Publié le \"] [entry-terms before=\"| Tags \"]"
 
-#: functions.php:303
+#: functions.php:305
 msgid "Copyright &#169; [the-year] [site-link]."
 msgstr "Copyright &#169; [the-year] [site-link]."
 
-#: functions.php:303
+#: functions.php:305
 msgid "Powered by [wp-link] and [theme-link]."
 msgstr "Propulsé par [wp-link] et [theme-link]."
 
-#: functions.php:303
+#: functions.php:305
 msgid " <a class=\"top\" href=\"#container\">Back to Top</a>"
-msgstr ""
+msgstr " <a class=\"top\" href=\"#container\">Haut de page</a>"
 
-#: functions.php:333
+#: functions.php:335
 msgid "Please comment with your real name using good manners."
 msgstr ""
 
-#: functions.php:344
+#: functions.php:346
 msgid "Read more &rarr;"
 msgstr "Lire la suite &rarr;"
 
-#: functions.php:380
+#: functions.php:382
 msgid "Twitter Username"
 msgstr "Nom d'utilisateur Twitter"
 
-#: functions.php:399
+#: functions.php:401
 msgid "Author of the article"
 msgstr "Auteur de l'article"
 
-#: functions.php:399
+#: functions.php:401
 msgid "Authors of the article"
 msgstr "Auteur de l'article"
 
-#: functions.php:416
+#: functions.php:418
 #: functions.php:441
 #: functions.php:461
 #, php-format
@@ -313,7 +323,7 @@ msgstr ""
 
 #: admin/functions-admin.php:46
 msgid "Background"
-msgstr ""
+msgstr "Arrière plan"
 
 #: admin/functions-admin.php:56
 msgid "Layout"
@@ -330,7 +340,7 @@ msgstr ""
 
 #: admin/functions-admin.php:94
 msgid "Custom background:"
-msgstr ""
+msgstr "Arrière plan personnalisé&nbsp;:"
 
 #: admin/functions-admin.php:97
 #, php-format
@@ -339,7 +349,7 @@ msgstr ""
 
 #: admin/functions-admin.php:114
 msgid "Global Layout:"
-msgstr ""
+msgstr "Mise en page globale&nbsp;:"
 
 #: admin/functions-admin.php:118
 msgid "Default"
@@ -380,7 +390,7 @@ msgstr ""
 
 #: page-templates/archives.php:50
 msgid "Archives by category"
-msgstr ""
+msgstr "Archives par catégories"
 
 #: page-templates/archives.php:54
 msgid "RSS"
@@ -398,7 +408,7 @@ msgstr "Archives par mois"
 msgid "Views [entry-views] [entry-terms taxonomy=\"category\" before=\"Posted in \"] [entry-terms before=\"Tagged \"]"
 msgstr ""
 
-#: page-templates/path-slider.php:54
+#: page-templates/path-slider.php:85
 msgid "More Articles"
 msgstr "Plus d'articles"
 
